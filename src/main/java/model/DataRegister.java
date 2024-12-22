@@ -1,3 +1,5 @@
+package model;
+
 public class DataRegister {
     private String id;
     private Double averageRating;
@@ -35,7 +37,7 @@ public class DataRegister {
 
     @Override
     public String toString() {
-        return "DataRegister{" +
+        return "model.DataRegister{" +
                 "id='" + id + '\'' +
                 ", averageRating=" + averageRating +
                 ", numVotes=" + numVotes +

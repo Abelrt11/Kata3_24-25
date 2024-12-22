@@ -1,5 +1,6 @@
+package Control;
+
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
 public class DataProcesor {
 
