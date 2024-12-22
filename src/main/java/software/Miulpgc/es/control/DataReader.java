@@ -1,4 +1,6 @@
-package Control;
+package software.Miulpgc.es.control;
+
+import software.Miulpgc.es.model.DataRegister;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

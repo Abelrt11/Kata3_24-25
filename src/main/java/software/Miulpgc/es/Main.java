@@ -1,8 +1,8 @@
+package software.Miulpgc.es;
 
-
-import Control.DataProcesor;
-import Control.DataReader;
-import model.DataRegister;
+import software.Miulpgc.es.control.DataProcesor;
+import software.Miulpgc.es.control.DataReader;
+import software.Miulpgc.es.model.DataRegister;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,6 +16,7 @@ public class Main {
         reader.RegisterList_completioner();
         DataProcesor procesor = new DataProcesor();
         System.out.println(procesor.average_rating_histogram_builder(reader));
+
 
     }
 }

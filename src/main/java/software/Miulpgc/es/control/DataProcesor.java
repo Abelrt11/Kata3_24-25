@@ -1,6 +1,9 @@
-package Control;
+package software.Miulpgc.es.control;
+
+import software.Miulpgc.es.model.DataRegister;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 public class DataProcesor {
 
@@ -22,7 +25,7 @@ public class DataProcesor {
     }
 
     private HashMap<String, Integer> average_rating_histogram_initializer() {
-        return new HashMap<>() {{
+        return new LinkedHashMap<>() {{
             put("0.0 - 4.9", 0);
             put("5.0 - 6.9", 0);
             put("7.0 - 8.9", 0);
